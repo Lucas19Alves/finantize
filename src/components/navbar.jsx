@@ -10,7 +10,7 @@ const Navbar = () => {
           </div>
           <div className="items-center space-x-4">
             <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded">
-              ENTRAR
+              Download
             </button>
           </div>
         </div>

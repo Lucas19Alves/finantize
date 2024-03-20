@@ -34,18 +34,25 @@ const LandingPage = () => {
       </section>
 
       {/* seção carrosel */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Conheça o Finantize em ação</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="/image1.jpg" alt="Image 1" className="w-full h-auto" />
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="/image2.jpg" alt="Image 2" className="w-full h-auto" />
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="/image3.jpg" alt="Image 3" className="w-full h-auto" />
+          <div id="controls-carousel" class="relative w-full" data-carousel="static">
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+              </div>
             </div>
           </div>
         </div>
